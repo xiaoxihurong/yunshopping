@@ -1,12 +1,17 @@
 $(function() {
 
     //顶部导航
+    var index;
     $(".nav-uu li").on("mouseenter", function() {
         $(this).addClass("nav-mouse").siblings().removeClass("nav-mouse");
     });
+    $(".nav-uu li").on("click", function() {
+        index=$(this).index();
+    });
+
     $(".nav-uu").on("mouseleave", function() {
         $(this).children().removeClass("nav-mouse");
-        $(this).children("li a:eq(0)").addClass("nav-mouse");
+        $(this).children("li:eq("+index+")").addClass("nav-mouse");
     });
 
     //底部导航

@@ -50,6 +50,7 @@
 	width: 570px;
 	border-radius: 20px;
 	border:0;
+	outline: none;
 	background-color:#eeeeee; 
 	font-size: 24px;
 	color: black;
@@ -340,6 +341,7 @@
 .food ul{
 	width: 1000px;
 	margin-top:40px;
+	margin-left: 40px;
 }
 .food li{
 	float: left;
@@ -351,7 +353,7 @@
 	height: 320px;
 	display: inline-block;
 	background-color: #b5b5b5;
-	margin: 40px 20px 30px 40px;
+	margin-right: 20px;
 	border-radius: 20px;
 	position: relative;
 }
@@ -368,9 +370,10 @@
 	color: #ec6e46;
 }
 .food li .large{
-	margin-left: 60px;
+	margin-left: -15px;
 	font-size: 30px;
 	font-weight: normal;
+	text-align: center;
 }
 
 
