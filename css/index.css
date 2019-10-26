@@ -1,0 +1,403 @@
+.main{
+	height: 4050px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.nav1,
+.nav2,
+.adver,
+.recom,
+.prefe,
+.activi,
+.food,
+.bottom{
+	font-family: icomoon;
+}
+
+.food,.recom,.prefe,.activi p{
+	font-size: 42px;
+	font-weight: bold;
+	color: black;
+}
+/*头部导航加搜索*/
+.nav1{
+	height: 340px;
+	background-color: #ee7446;	
+	box-sizing: border-box;
+	padding-left: 40px;
+}
+.nav1 img{
+	margin-left: -40px;
+	margin-bottom: 25px;
+}
+.nav1 .search span{
+	width: 42px;
+	height: 42px;
+	display: block;
+	background-color: #d4e4ee;
+}
+.nav1 .search p{
+	color: white;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: -8px;
+	font-weight: bold;
+
+}
+.nav1 .search input{
+	margin-left: 40px;
+	height: 75px;
+	width: 570px;
+	border-radius: 20px;
+	border:0;
+	background-color:#eeeeee; 
+	font-size: 24px;
+	color: black;
+	text-indent: 4em;
+}
+.nav1 .search .sousuo{
+	position: relative;
+}
+.nav1 .search  i{
+	font-style: normal;
+	font-size: 40px;
+	position: absolute;
+	color: #999;
+	left: 15%;
+	top: 25%;
+}
+.nav1 ul{
+	margin-top: 85px;
+}
+.nav1 ul li{
+	height: 60px;
+	color: #ded9d8;
+	font-size:28px;
+	line-height: 60px;
+	float: left;
+	margin-right: 45px;
+}
+
+.nav-mouse{
+	font-size: 40px;
+	color: white;
+	border-bottom: 5px solid white;
+
+}
+
+
+/*轮播图加菜单导航 */
+.nav2{
+	height: 720px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.nav2 .slider {
+    height: 320px;
+    width: 670px;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+   } 
+.nav2 .slider img{
+	height: 320px;
+	width: 670px;
+	border-radius: 20px;
+}   
+.nav2 .slider li {
+    position: absolute;
+    display: none;
+    }
+
+.nav2 .slider li:first-child {
+    display: block;
+    }    
+.nav2 .arrow {
+    display: none;
+    }
+    
+.nav2 .arrow-left,
+.nav2 .arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+   }   
+.nav2 .arrow-left:hover,
+.nav2 .arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+    }
+    
+.nav2 .arrow-left {
+    left: 0;
+    }
+    
+.nav2 .arrow-right {
+    right: 0;
+    }
+
+.cart ul li{
+	width: 150px;
+	font-size: 20px;
+	color: #969696;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+}
+.cart li a{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin-bottom: 20px;
+	background-color: #969696;
+}
+
+
+/*广告推送区*/
+.adver{
+	height: 110px;
+	background-color: #fdf1ec;
+	box-sizing: border-box;
+	padding: 20px 40px;
+}
+.adver .p1{
+	font-size: 24px;
+	color: black;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.adver .p2{
+	font-size: 14px;
+	color: white;
+	background-color: #ed7346;
+	padding-left: 5px;
+}
+.adver li{
+	float: left;
+	width: 75px;
+	height: 60px;
+	background-color: #b5b5b5;
+	margin-left:20px;
+	border-radius: 10px;
+}
+
+
+
+
+/*热门产品*/
+.recom{
+	height: 480px;
+	/*background-color: #fff;*/
+	box-sizing: border-box;
+	padding-top: 70px;
+	padding-left:40px;
+	overflow: hidden;
+}
+.recom .icon{
+	padding-left: 475px;
+}
+.recom ul{
+	width: 1000px;
+	margin-top:40px;
+}
+.recom li{
+	float: left;
+	position: relative;
+}
+.recom li a{
+	width: 240px;
+	height: 265px;
+	display: inline-block;
+	background-color: #b5b5b5;
+	margin-right: 25px;
+	border-radius: 20px;
+}
+.recom ul span{
+	width: 215px;
+	height: 90px;
+	background-color: #eaeaea;
+	position: absolute;
+	bottom: 0;
+	font-size: 22px;
+	padding-left:25px;
+	padding-top:20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.recom ul span i{
+	font-style: normal;
+	font-size: 28px;
+}
+
+
+
+/*专区榜单*/
+.prefe{
+	height: 1180px;
+	background-color: #ffc;
+	box-sizing: border-box;
+	padding-left: 15px
+}
+.prefe p{
+	margin-left: 25px;
+}
+.prefe table{
+	border-spacing:25px 25px;
+}
+.prefe td{
+	width: 325px;
+	height: 240px;
+	background-color: #b5b5b5;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.prefe td span{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55px;
+	background-color: #ec6e46;
+	font-size: 34px;
+	color: white;
+	text-align: center;
+	line-height: 55px
+}
+
+
+
+/*活动专区*/
+.activi{
+	height: 470px;
+	/*background-color: #fff;*/
+	box-sizing: border-box;
+	position: relative;
+	padding-left: 25px;
+}
+.activi .icon{
+	padding-left: 475px;
+}
+.activi div{
+	display:inline-block;
+	width: 630px;
+	height: 320px;
+	background-color: #b5b5b5;
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	border-radius: 20px;
+	z-index: 3;
+}
+.activi .se{
+	background-color: #c7c5c5;
+	transform: translateX(20px);
+	z-index: 2;
+
+}
+.activi .th{
+	background-color: #e2e2e2;
+	transform: translateX(40px);
+	z-index: 1;
+}
+.activi .text{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 40px;
+	margin-left: 75px;
+	margin-bottom: 100px;
+	z-index: 4;
+}
+.activi .text span{
+	font-size: 24px;
+	color: #ec6e46;
+}
+
+
+/*美食专区*/
+.food{
+	height: 530px;
+	background-color: #ffc;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.food p{
+	margin-left: 25px;
+}
+.food .icon{
+	padding-left: 475px;
+}
+.food ul{
+	width: 1000px;
+	margin-top:40px;
+}
+.food li{
+	float: left;
+	position: relative;
+	font-weight: normal;
+}
+.food li a{
+	width: 240px;
+	height: 320px;
+	display: inline-block;
+	background-color: #b5b5b5;
+	margin: 40px 20px 30px 40px;
+	border-radius: 20px;
+	position: relative;
+}
+.food li a p{
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+	position: absolute;
+	bottom: 32px;
+	left: 20px;
+}
+.food li a span{
+	font-size: 24px;
+	color: #ec6e46;
+}
+.food li .large{
+	margin-left: 60px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+
+/*底部导航*/
+.bottom{
+	height: 100px;
+	/*background-color: #fbfbfb;*/background-color: pink;
+	box-sizing: border-box;
+	padding:0 40px;
+}
+.bottom ul li{
+	width: 150px;
+	font-size: 40px;
+	line-height: 100px;
+	display: inline-block;
+	float:left;
+	color: #999999;
+	cursor: pointer;
+}
+.bottom .last{
+	width: 70px;
+}
+
+.bottom-black{
+	color: black!important;
+}
